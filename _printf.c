@@ -4,8 +4,8 @@ void print_buffer(char buffer[], int *buff_ind);
 
 /**
  * _printf - Printf function
- * @format: format
- * Return: Printed chars
+ * @format: format.
+ * Return: Printed chars.
  */
 int _printf(const char *format, ...)
 {
@@ -51,10 +51,11 @@ int _printf(const char *format, ...)
 
 	return (printed_chars);
 }
+
 /**
- * print_buffer - -prints contents in buff
- * @buffer: array of chars
- * @buff_ind: index to add next char for length
+ * print_buffer - Prints contents in buffer
+ * @buffer: Array of chars
+ * @buff_ind: Index at which to add next char
  */
 void print_buffer(char buffer[], int *buff_ind)
 {
@@ -63,3 +64,4 @@ void print_buffer(char buffer[], int *buff_ind)
 
 	*buff_ind = 0;
 }
+
