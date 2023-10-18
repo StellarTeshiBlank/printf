@@ -53,9 +53,9 @@ int _printf(const char *format, ...)
 }
 
 /**
- * print_buffer - Prints contents in buffer
+ * print_buffer - Prints data in buffer
  * @buffer: Array of chars
- * @buff_ind: Index at which to add next char
+ * @buff_ind: Index at add next char
  */
 void print_buffer(char buffer[], int *buff_ind)
 {
